@@ -2,13 +2,13 @@ body {
   font-family: "Lucida Grande", "Tahoma", "Helvetica", "Sans-Serif";
   background: #000 url(images/background.png) repeat;
   margin: 0; padding: 0;
-  font-size: 18px; color: #666;
+  font-size: 18px;
 }
 
 h1, h2 {
   font-family: "Helvetica Neue", "Helvetica", "Sans-Serif";
   margin: 0; padding: 0;
-  color: #444;
+  color: #333;
 }
 
 h1 {
@@ -24,17 +24,20 @@ h2 {
 }
 
 p {
+  color: #000;
   line-height: 30px;
   background: #eee;
   margin-bottom: 30px;
 }
 
 a:link, a:visited {
+  font-weight: bold;
   text-decoration: none;
-  color: #c33;
+  color: #603913;
 }
 
 a:hover, a:active {
+  font-weight: bold;
   text-decoration: underline;
   color: #900;
 }
