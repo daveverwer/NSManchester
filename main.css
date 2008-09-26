@@ -1,12 +1,12 @@
 body {
-  font-family: "Lucida Grande", "Tahoma", "Helvetica", "Sans-Serif";
+  font-family: "Lucida Grande", "Arial", "Helvetica", "Sans-Serif";
   background: #000 url(images/background.png) repeat;
   margin: 0; padding: 0;
   font-size: 18px;
 }
 
 h1, h2 {
-  font-family: "Helvetica Neue", "Helvetica", "Sans-Serif";
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "Sans-Serif";
   margin: 0; padding: 0;
   color: #333;
 }
@@ -51,9 +51,8 @@ a:hover, a:active {
 
 #apple {
   position: absolute;
-  right: 10px; top: 10px;
-  float: right;
-  font-size: 30px;
+  right: 10px; top: 10px; width: 26px; height: 30px;
+  background: #fff url(images/apple.png);
 }
 
 .question {
