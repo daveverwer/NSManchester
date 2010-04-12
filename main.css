@@ -5,6 +5,46 @@ body {
   font-size: 18px;
 }
 
+#wrapper {
+  margin: 0 auto;
+  padding: 0;
+  width: 740px;
+}
+
+#header {
+  background: #fff;
+  border-top: 15px solid #603913;
+  margin: 50px 0 0 0;
+  padding: 20px;
+  position: relative;
+  width: 700px;
+}
+
+#section {
+  background: #fff;
+  display: inline;
+  float: left;
+  margin: 0 0 50px 0;
+  padding: 0 20px;
+  width: 700px;
+}
+
+#questions {
+  float: left;
+  display: inline;
+  width: 500px;
+}
+
+#questions p {
+  width: 480px;
+}
+
+#eventbrite {
+  float: left;
+  display: inline;
+  width: 200px;
+}
+
 h1, h2 {
   font-family: "Helvetica Neue", "Helvetica", "Arial", "Sans-Serif";
   margin: 0; padding: 0;
@@ -18,7 +58,7 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   letter-spacing: -0.08em;
   font-size: 30px;
 }
@@ -26,7 +66,6 @@ h2 {
 p {
   color: #000;
   line-height: 30px;
-  background: #eee;
   margin-bottom: 30px;
 }
 
@@ -40,13 +79,6 @@ a:hover, a:active {
   font-weight: bold;
   text-decoration: underline;
   color: #900;
-}
-
-#content {
-  position: relative;
-  background: #fff; border-top: 15px #603913 solid;
-  width: 700px;  height:100%;
-  margin: 50px auto; padding: 20px;
 }
 
 #apple {
