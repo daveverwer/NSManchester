@@ -12,6 +12,7 @@ server "shiny-002.vm.brightbox.net", :app, :web, :db, :primary => true
 server "shiny-003.vm.brightbox.net", :app, :web
 
 after "deploy:update_code" do
+  run "mv #{latest_release}/htaccess #{latest_release}/.htaccess"
   run "rm #{latest_release}/capistrano/deploy.rb && rmdir #{latest_release}/capistrano && rm #{latest_release}/capfile"
 end
 
